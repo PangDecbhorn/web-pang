@@ -24,3 +24,177 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes slideLoop {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.animate-slideLoop {
+  animation: slideLoop 2s ease-in-out infinite;
+}
+@keyframes slideXLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slideXLoop {
+  animation: slideXLoop 10s linear infinite;
+}
+
+/* --------------------- */
+/* ✅ Layout Container */
+/* --------------------- */
+.three-d-wrapper {
+  position: absolute;
+  right: -100px;
+  transform: translateX(25%) translateY(11%);
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --------------------- */
+/* ✅ Scene Main       */
+/* --------------------- */
+.scene {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  animation: scene 144s linear infinite;
+}
+
+.scene * {
+  position: absolute;
+}
+
+/* --------------------- */
+/* ✅ Scene Animation */
+/* --------------------- */
+@keyframes scene {
+  from { transform: rotateX(7deg) rotateZ(0deg); }
+  to { transform: rotateX(7deg) rotateZ(-360deg); }
+}
+
+/* --------------------- */
+/* ✅ Floor */
+/* --------------------- */
+.floor {
+  inset: -40em;
+  background-color: #fff2;
+  background:
+    radial-gradient(closest-side, transparent, black),
+    repeating-conic-gradient(#aaf8 0 30deg, #003 0 60deg) 0 0 / 2em 2em;
+}
+
+/* --------------------- */
+/* ✅ Walls */
+/* --------------------- */
+.wall {    
+  inset: -3.25em -6.5em;
+  translate: 0 -3.25em;
+  transform-origin: bottom;
+}
+
+.wall i {
+  --color: hsl(200 0% var(--i) * 4%);
+  inset: 0;
+  border-radius: 50% / 100% 100% 0 0;
+  border: solid hsl(0 0% calc(var(--i) * 3%)) 0.5em;
+  border-bottom: none;
+  transform: translateZ(calc(var(--i) * 2px));
+}
+
+.wall i:first-child {
+  filter: blur(0.3em);
+}
+
+.wall.main {
+  animation: mainWall 2s linear infinite;
+}
+
+.wall.out {
+  transform: rotate(calc(var(--w) * 45deg)) translateY(-20em);
+}
+
+.wall.out i {
+  animation: outWall 6s calc(var(--w) * -3.75s) linear infinite;
+}
+
+/* --------------------- */
+/* ✅ Wall Animations */
+/* --------------------- */
+@keyframes mainWall {
+  to { rotate: 360deg; }
+}
+
+@keyframes outWall {
+  0%, 35%, 100% {
+    opacity: 0.05;
+    transform: translateZ(0);
+  }
+  10%, 25% {
+    opacity: 1;
+    transform: translateZ(calc(var(--i) * 2px));
+  }
+}
+
+/* --------------------- */
+/* ✅ Balls */
+/* --------------------- */
+.ball-container {
+  inset: -2em;
+  border-radius: 50%;
+  background-color: #0008;
+  box-shadow: 0 0 1em #000;
+  rotate: calc(var(--b) * -90deg); 
+  animation: ballContainer 18s calc(var(--b) * -0.5s) linear infinite;
+}
+
+.ball {
+  --rotateZ: calc(var(--b) * 90deg);
+  inset: 0;
+  border-radius: 50%;
+  background-color: hsl(calc(var(--b) * 40) 85% 65%);
+  background-image: radial-gradient(circle at 50% 20%, transparent, 60%, black);
+  animation: ball 144s linear infinite;
+}
+
+/* --------------------- */
+/* ✅ Ball Animation */
+/* --------------------- */
+@keyframes ballContainer {
+  0% { transform: rotate(0deg) translateY(0em) rotate(0deg) translateX(4em) rotate(0deg); }
+  2.5% { transform: rotate(-90deg) translateY(0em) rotate(0deg) translateX(4em) rotate(90deg); }
+  11.25% { transform: rotate(-90deg) translateY(-20em) rotate(0deg) translateX(4em) rotate(90deg); }
+  16.25% { transform: rotate(-90deg) translateY(-20em) rotate(-180deg) translateX(4em) rotate(270deg); }
+  25% { transform: rotate(-90deg) translateY(0em) rotate(-180deg) translateX(4em) rotate(270deg); }
+  27.5% { transform: rotate(-180deg) translateY(0em) rotate(-180deg) translateX(4em) rotate(360deg); }
+  36.25% { transform: rotate(-180deg) translateY(20em) rotate(-180deg) translateX(4em) rotate(360deg); }
+  41.25% { transform: rotate(-180deg) translateY(20em) rotate(-360deg) translateX(4em) rotate(540deg); }
+  50% { transform: rotate(-180deg) translateY(0em) rotate(-360deg) translateX(4em) rotate(540deg); }
+  52.5% { transform: rotate(-270deg) translateY(0em) rotate(-360deg) translateX(4em) rotate(630deg); }
+  61.25% { transform: rotate(-270deg) translateY(-20em) rotate(-360deg) translateX(4em) rotate(630deg); }
+  66.25% { transform: rotate(-270deg) translateY(-20em) rotate(-540deg) translateX(4em) rotate(810deg); }
+  75% { transform: rotate(-270deg) translateY(0em) rotate(-540deg) translateX(4em) rotate(810deg); }
+  77.5% { transform: rotate(-360deg) translateY(0em) rotate(-540deg) translateX(4em) rotate(900deg); }
+  86.25% { transform: rotate(-360deg) translateY(20em) rotate(-540deg) translateX(4em) rotate(900deg); }
+  91.25% { transform: rotate(-360deg) translateY(20em) rotate(-720deg) translateX(4em) rotate(1080deg); }
+  100% { transform: rotate(-360deg) translateY(0em) rotate(-720deg) translateX(4em) rotate(1080deg); }
+}
+
+@keyframes ball {
+  from { transform: translateZ(2em) rotateZ(var(--rotateZ)) rotateZ(0deg) rotateX(-30deg); }
+  to   { transform: translateZ(2em) rotateZ(var(--rotateZ)) rotateZ(360deg) rotateX(-30deg); }
+}
+
