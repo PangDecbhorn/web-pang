@@ -53,7 +53,7 @@ function HeroLayout() {
                 My Work
               </Button>
             </Link>
-            <Link href="/about">
+            <Link href="/about-me">
               <Button className="rounded-full border px-6 text-black bg-[#ab644b] hover:bg-[#72383d]">
                 About Me
               </Button>

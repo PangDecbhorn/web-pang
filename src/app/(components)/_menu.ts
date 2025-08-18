@@ -31,7 +31,7 @@ const menuItems: MenuItem[] = [
     id: "about",
     label: "About",
     icon: Popcorn,
-    url: "/about",
+    url: "/about-me",
   },
   {
     id: "projects",

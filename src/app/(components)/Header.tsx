@@ -60,6 +60,7 @@ function Header() {
                 <Link
                   key={item.id}
                   href={item.url}
+                  onClick={() => setMenuOpen(false)}   {/* 👈 เพิ่มตรงนี้ */}
                   className="flex items-center justify-center gap-2 rounded-md border border-gray-200 px-4 py-3 hover:border-blue-400 hover:text-blue-600"
                 >
                   <IconComponent size={16} className="shrink-0" />
@@ -69,7 +70,7 @@ function Header() {
             })}
           </div>
 
-          <Link href="/contact">
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>
             <Button className="mt-4 w-full rounded-full border border-black bg-[#ab644b] hover:bg-[#72383d] hover:text-white">
               Contact
             </Button>
