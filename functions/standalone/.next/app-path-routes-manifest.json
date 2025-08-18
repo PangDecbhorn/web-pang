@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/contact/page": "/contact",
+  "/projects/analysis-engagement-food-delivery/page": "/projects/analysis-engagement-food-delivery",
+  "/projects/big-data/page": "/projects/big-data",
+  "/about/page": "/about",
+  "/projects/acident-on-road/page": "/projects/acident-on-road",
+  "/projects/create-rdbms/page": "/projects/create-rdbms",
+  "/projects/uv-risk/page": "/projects/uv-risk",
+  "/projects/page": "/projects",
+  "/projects/risk-analysis/page": "/projects/risk-analysis",
+  "/skills/page": "/skills",
+  "/page": "/"
+}

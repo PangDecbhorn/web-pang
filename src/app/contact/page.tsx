@@ -12,7 +12,7 @@ function ContactMePage() {
         <ThreeDScene />
       </div>
 
-      <div className="relative z-10 grid md:grid-cols-2 gap-10 px-6 py-16 md:px-20">
+      <div className="relative z-0 grid md:grid-cols-2 gap-10 px-6 py-16 md:px-20">
         {/* Left Section */}
         <div className="flex flex-col justify-between space-y-8 font-serif  ">
           <div>

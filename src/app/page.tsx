@@ -7,7 +7,7 @@ import Image from "next/image";
 function HeroLayout() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-[#f2f2eb] text-black relative">
-      <div className="absolute top-[16%] flex gap-6 animate-slideLoop z-10">
+      <div className="absolute md:top-[16%] top-[20%] flex gap-6 animate-slideLoop z-0">
         <Image
           src="/home-page/ghost.png"
           alt="ghost"

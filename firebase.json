@@ -1,15 +1,10 @@
 {
-  "functions": {
-    "runtime": "nodejs22",
-    "source": "functions"
-  },
   "hosting": {
-    "source": ".output/public",
-    "rewrites": [
-      {
-        "source": "**",
-        "function": "nextApp"
-      }
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
 }

@@ -1,0 +1,108 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/app/_not-found/page-999f4910c6400ace.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/css/b9db03150786b357.css",
+      "static/chunks/757-bd31dc81ecb49647.js",
+      "static/chunks/app/layout-4ca85359802fa491.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/757-bd31dc81ecb49647.js",
+      "static/chunks/app/contact/page-b3ebafbacb6f006b.js"
+    ],
+    "/projects/analysis-engagement-food-delivery/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/app/projects/analysis-engagement-food-delivery/page-711922743529d193.js"
+    ],
+    "/projects/big-data/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/app/projects/big-data/page-b719455d532c91ef.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/app/about/page-a42076a8703e83f9.js"
+    ],
+    "/projects/acident-on-road/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/app/projects/acident-on-road/page-59a2a64811cf5efc.js"
+    ],
+    "/projects/create-rdbms/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/app/projects/create-rdbms/page-de793cc49fb669bd.js"
+    ],
+    "/projects/uv-risk/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/app/projects/uv-risk/page-6c94d4108cdab529.js"
+    ],
+    "/projects/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/757-bd31dc81ecb49647.js",
+      "static/chunks/app/projects/page-c8a060b889f6bbdc.js"
+    ],
+    "/projects/risk-analysis/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/app/projects/risk-analysis/page-31457429ccff6cb3.js"
+    ],
+    "/skills/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/app/skills/page-3cdc43ab2f3284d4.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-9cc54fcf14bcf70c.js",
+      "static/chunks/33a73983-da37bba5bf6560d2.js",
+      "static/chunks/271-6a08aa83500d7081.js",
+      "static/chunks/main-app-0312cbdc3a176881.js",
+      "static/chunks/365-886719294aaa38cc.js",
+      "static/chunks/757-bd31dc81ecb49647.js",
+      "static/chunks/app/page-5bde48dbeaf8b5a7.js"
+    ]
+  }
+}

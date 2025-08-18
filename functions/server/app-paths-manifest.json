@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/contact/page": "app/contact/page.js",
+  "/projects/analysis-engagement-food-delivery/page": "app/projects/analysis-engagement-food-delivery/page.js",
+  "/projects/big-data/page": "app/projects/big-data/page.js",
+  "/about/page": "app/about/page.js",
+  "/projects/acident-on-road/page": "app/projects/acident-on-road/page.js",
+  "/projects/create-rdbms/page": "app/projects/create-rdbms/page.js",
+  "/projects/uv-risk/page": "app/projects/uv-risk/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/projects/risk-analysis/page": "app/projects/risk-analysis/page.js",
+  "/skills/page": "app/skills/page.js",
+  "/page": "app/page.js"
+}
