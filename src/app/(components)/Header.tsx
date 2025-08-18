@@ -10,7 +10,7 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="absolute z-10 bg-[#ffffff] mx-auto mt-2 flex max-w-5xl items-center justify-between rounded-full border border-gray-500 shadow-md px-6 py-2 relative">
+    <header className="z-10 bg-[#ffffff] mx-auto mt-2 flex max-w-5xl text-black items-center justify-between rounded-full border border-gray-500 shadow-md px-6 py-2 relative">
       <div className="font-semibold">D. Jittrabhorn</div>
 
       {/* Desktop nav */}
